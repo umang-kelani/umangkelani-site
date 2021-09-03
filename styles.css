@@ -37,7 +37,7 @@ hr {
 }
 
 .link-secondary {
-  color: var (--primary-color);
+  color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
 }
@@ -78,6 +78,7 @@ hr {
 
 .hero {
   padding: 2rem;
+  padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -124,4 +125,9 @@ hr {
 
 .footer ui {
   padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
 }
